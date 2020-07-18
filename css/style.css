@@ -1,0 +1,71 @@
+
+body{
+    margin-top: 90px; 
+}
+.navbar{
+    box-shadow: 2px 2px 5px #3292a6;
+    background: #fff;
+    opacity: 0.9;
+}
+.nav-item{
+    font-size: 1.4rem;
+    padding-right: 20px;
+}
+.nav-item:last-child{
+    padding-right: 0;
+}
+.nav-link:hover{
+    background: #3292a6;
+}
+#showcase{
+    position: relative;
+    background-image: url('../img/image-0003.jpg');
+    min-height: 750px;
+}
+.info-overlay{
+    background: #17a2b8;
+    min-height: 750px;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#authors img{
+    height: 90px;
+    width: 90px;
+    margin-top: -40%;
+}
+#authors .card:hover{
+    background:  #50f379;
+    color: #fff;
+}
+#authors .fa{
+    font-size: 25px;
+}
+#authors .fa:hover{
+    color: #fff;
+}
+#footer-main .fa{
+    font-size: 25px;
+    color: #fff;
+}
+#footer-main .fa:hover{
+    color: #008000;
+}
+
+
+
+
+@media(max-width: 576px){
+    #showcase h1{
+        font-size: 4.5rem;
+    }
+}
+@media(max-width: 767px){
+    #authors img{
+        margin-top: -20%;
+    }
+}
